@@ -1,0 +1,34 @@
+{
+	"psychology": {
+		"image1": "url",
+		"image2": "url",
+		"title1": "algún titulo",
+		"title2": "algún titulo",
+		"paragraph1": "algún párrafo",
+		"paragraph2": "algún párrafo"
+	},
+	"entrepreneurship": {
+		"image1": "url",
+		"image2": "url",
+		"title1": "algún titulo",
+		"title2": "algún titulo",
+		"paragraph1": "algún párrafo",
+		"paragraph2": "algún párrafo"
+	},
+	"values": {
+		"image1": "url",
+		"image2": "url",
+		"title1": "algún titulo",
+		"title2": "algún titulo",
+		"paragraph1": "algún párrafo",
+		"paragraph2": "algún párrafo"
+	},
+	"postpartum": {
+		"image1": "url",
+		"image2": "url",
+		"title1": "algún titulo",
+		"title2": "algún titulo",
+		"paragraph1": "algún párrafo",
+		"paragraph2": "algún párrafo"
+	}
+}
