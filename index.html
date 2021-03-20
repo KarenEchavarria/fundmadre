@@ -15,10 +15,10 @@
 
 <body>
 	<header>
-		<img class="logo" src="" alt="">
+		<img class="logo" src="./public/assets/logo/logo-name.jpg" alt="Fundmadre logo">
 		<nav>
 			<ul class="main-menu">
-				<a href="">
+				<a id="about-us" href="">
 					<li class="text-menu">¿Quiénes somos?</li>
 				</a>
 				<a href="">
@@ -30,66 +30,101 @@
 			</ul>
 			<div class="donation-menu">
 				<div class="donation-menu-container">
-					<img class="menu-icon" src="./assets/icons/pregnant-woman-icon.svg" alt="pregnant woman icon">
+					<img class="menu-icon" src="./public/assets/icons/pregnant-woman-icon.svg" alt="pregnant woman icon">
 					<span class="menu-icon-text">Donar</span>
 				</div>
 				<div class="donation-menu-container">
-					<img class="menu-icon" src="./assets/icons/heart-hand-icon.svg" alt="heart hand icon">
+					<img class="menu-icon" src="./public/assets/icons/heart-hand-icon.svg" alt="heart hand icon">
 					<span class="menu-icon-text">Voluntariado</span>
 				</div>
 			</div>
 		</nav>
 	</header>
 
-	<section class="main-carousel">
-		<img src="" alt="">
-		<div class="main-carousel-form-container">
-			<p class="main-carousel-form-text">Queremos Apoyar, Acompañar y Asesorar a MÁS Madres Embarazadas. ¡DONA!</p>
-			<form action=""></form>
-		</div>
-		<div class="main-carousel-circles-container">
-			<div class="main-carousel-circles"></div>
-			<div class="main-carousel-circles"></div>
-			<div class="main-carousel-circles"></div>
-		</div>
-	</section>
-	<section class="informative-slider">
-		<p class="informative-slider-introduction">La maternidad es Vida, apoyar las madres gestantes vulnerables es grato
-			al que es
-			Fuente de Vida y Amor. Nuestro trabajo se basa en:
-		</p>
-		<div class="informative-slider-title-container">
-			<div class="informative-slider-title-subcontainer">
-				<img class="informative-slider-title-icon" src="./assets/icons/psychology-title-icon.svg" alt="psychology icon">
-				<button id="in-psychology" class="informative-slider-title-button">EN PSICOLOGÍA</button>
+	<main id="root-container">
+		<section class="main-slider">
+			<img class="main-slider-img" src="./public/assets/sliders/main-slider/picture-1.jpg"
+				alt="picture of team and pregnat women">
+			<div class="main-slider-form-container">
+				<p class="main-slider-form-text">Queremos Apoyar, Acompañar y Asesorar a MÁS Madres Embarazadas. ¡DONA!</p>
+				<form action=""></form>
 			</div>
-			<div class="informative-slider-title-subcontainer">
-				<img class="informative-slider-title-icon" src="./assets/icons/entrepreneurship-title-icon.svg"
-					alt="entrepreneurship icon">
-				<button id="in-entrepreneurship" class="informative-slider-title-button">EN EMPRENDIMIENTO</button>
+			<div class="main-slider-circles-container">
+				<div class="main-slider-circles"></div>
+				<div class="main-slider-circles"></div>
+				<div class="main-slider-circles"></div>
 			</div>
-			<div class="informative-slider-title-subcontainer">
-				<img class="informative-slider-title-icon" src="./assets/icons/values-title-icon.svg" alt="values icon">
-				<button id="in-values" class="informative-slider-title-button">ESPIRITUALIDAD Y VALORES</button>
-			</div>
-			<div class="informative-slider-title-subcontainer">
-				<img class="informative-slider-title-icon" src="./assets/icons/post-partum-title-icon.svg"
-					alt="postpartum icon">
-				<button id="in-postpartum" class="informative-slider-title-button">EN CUIDADOS Y POST-PARTO</button>
-			</div>
-		</div>
-		<article class="informative-slider-article">
-			<div class="informative-slider-article-container">
-				<img class="informative-slider-article-img" src="" alt="">
-				<div class="informative-slider-article-text-container">
-					<h2 class="informative-slider-article-text-title"></h2>
-					<p class="informative-slider-article-text-p"></p>
+		</section>
+		<section class="informative-slider">
+			<p class="informative-slider-introduction">La maternidad es Vida, apoyar las madres gestantes vulnerables es grato
+				al que es
+				Fuente de Vida y Amor. Nuestro trabajo se basa en:
+			</p>
+			<div class="informative-slider-title-container">
+				<div class="informative-slider-title-subcontainer">
+					<img class="informative-slider-title-icon" src="./public/assets/icons/psychology-title-icon.svg"
+						alt="psychology icon">
+					<button id="psychology" class="informative-slider-title-button">PSICOLOGÍA</button>
+				</div>
+				<div class="informative-slider-title-subcontainer">
+					<img class="informative-slider-title-icon" src="./public/assets/icons/entrepreneurship-title-icon.svg"
+						alt="entrepreneurship icon">
+					<button id="entrepreneurship" class="informative-slider-title-button">EMPRENDIMIENTO</button>
+				</div>
+				<div class="informative-slider-title-subcontainer">
+					<img class="informative-slider-title-icon" src="./public/assets/icons/values-title-icon.svg"
+						alt="values icon">
+					<button id="values" class="informative-slider-title-button">ESPIRITUALIDAD Y VALORES</button>
+				</div>
+				<div class="informative-slider-title-subcontainer">
+					<img class="informative-slider-title-icon" src="./public/assets/icons/post-partum-title-icon.svg"
+						alt="postpartum icon">
+					<button id="postpartum" class="informative-slider-title-button">CUIDADOS Y POST-PARTO</button>
 				</div>
 			</div>
-		</article>
-	</section>
 
-	<script src="./scripts/index.js"></script>
+			<article id="informative-slider-article">
+				<p id="informative-slider-article-text"> Asesorías en temas de Resiliencia , Pautas de Crianza, promoviendo el
+					amor por la vida desde la Gestación y apoyando los cambios Psicológicos durante y después del parto.</p>
+				<div class="informative-slider-article-container">
+					<img id="informative-slider-article-img-left" class="informative-slider-article-img"
+						src="./public/assets/sliders/informative-slider/psychology-1.png" alt="">
+
+					<img id="informative-slider-article-img-right" class="informative-slider-article-img"
+						src="./public/assets/sliders/informative-slider/psychology-2.jpg" alt="">
+				</div>
+			</article>
+		</section>
+	</main>
+
+	<footer>
+		<div class="footer-column">
+			<div class="footer-text-title">Contáctanos</div>
+			<div class="footer-column-text">
+				<div class="footer-text"><img src="" alt="">Ubicación</div>
+				<div class="footer-text"><img src="" alt="">fundmadre@gmail.com</div>
+				<div class="footer-text"><img src="" alt="">+54 311 4717306</div>
+			</div>
+		</div>
+		<div class="footer-column">
+			<div class="footer-text-title">Nosotros</div>
+			<div class="footer-column-text">
+				<div class="footer-text"><img src="" alt="">¿Quiénes somos?</div>
+				<div class="footer-text"><img src="" alt="">¿Qué hacemos</div>
+				<div class="footer-text"><img src="" alt="">Contáctanos</div>
+			</div>
+		</div>
+		<div class="footer-column">
+			<div class="footer-text-title">Síguenos</div>
+			<div class="footer-column-text">
+				<div class="footer-text"><img src="" alt="">/fundmadre</div>
+				<div class="footer-text"><img src="" alt="">/fundmadre</div>
+				<div class="footer-text"><img src="" alt="">/fundmadre</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="./index.js"></script>
 </body>
 
 </html>

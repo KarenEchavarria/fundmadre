@@ -1,0 +1,22 @@
+{
+	"name": "fundmadre",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"dependencies": {},
+	"devDependencies": {
+		"eslint": "^7.22.0",
+		"eslint-config-airbnb-base": "^14.2.1",
+		"eslint-plugin-import": "^2.22.1",
+		"parcel-bundler": "1.12.3"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "parcel watch index.html",
+		"build": "parcel build index.html",
+		"setServer": "parcel serve index.html --port 1234"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}
