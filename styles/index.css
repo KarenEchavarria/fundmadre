@@ -48,7 +48,6 @@ nav {
 }
 
 .logo {
-	width: 30vh;
 	height: 10vh;
 	background: brown;
 	z-index: 2;
@@ -106,11 +105,14 @@ nav {
 	margin-left: -0.5vw;
 }
 
+body {
+	border-top: 12.5vh solid transparent;
+}
+
 .main-slider {
 	position: relative;
 	display: flex;
 	background: blueviolet;
-	border-top: 12.5vh solid transparent;
 	width: 100%;
 	height: 100vh;
 }

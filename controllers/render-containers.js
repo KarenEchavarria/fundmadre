@@ -1,8 +1,7 @@
 import removeChildContainer from '../utils/remove-child-container';
-import dataToFill from './pages-data';
 
 export default class RenderContainers {
-  static informativeSlider(data) {
+  static informativeSlider(data, dataToFill) {
     const img1 = document.getElementById('informative-slider-article-img-left');
     const img2 = document.getElementById('informative-slider-article-img-right');
     const text = document.getElementById('informative-slider-article-text');
@@ -12,9 +11,7 @@ export default class RenderContainers {
     text.innerText = dataToFill[data.id].text;
   }
 
-  static aboutUsPage(event) {
-    event.preventDefault();
-
+  static articleComponent(data) {
     removeChildContainer('root-container');
 
     const container = document.createElement('main');
@@ -25,12 +22,15 @@ export default class RenderContainers {
     const img = document.createElement('img');
 
     container.id = 'root-container';
-    descriptionContainer.id = 'about-us-container';
-    textContainer.className = 'about-us-text-container';
-    title.innerText = dataToFill.aboutUsTitle;
-    text.innerText = dataToFill.aboutUsText;
-    img.src = dataToFill.aboutUsImg;
-    img.alt = dataToFill.aboutUsAlt;
+    descriptionContainer.id = 'article-container';
+    textContainer.className = 'article-text-container';
+    text.className = 'article-text';
+    title.className = 'article-title';
+    title.innerText = data.title;
+    text.innerText = data.text;
+    img.src = data.img;
+    img.alt = data.alt;
+    img.className = 'article-logo';
 
     textContainer.appendChild(title);
     textContainer.appendChild(text);
@@ -38,7 +38,5 @@ export default class RenderContainers {
     descriptionContainer.appendChild(img);
     container.appendChild(descriptionContainer);
     document.querySelector('body').insertBefore(container, document.querySelector('footer'));
-
-    console.log('the end of render');
   }
 }

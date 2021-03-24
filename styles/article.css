@@ -1,0 +1,37 @@
+
+#article-container {
+	margin: 5%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.article-text-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.article-title {
+	width: 45vw;
+	font-size: 48px;
+	font-weight: 700;
+	color: #5B85BC;
+	margin: 3vh 0;
+	border-bottom: 4px solid #FFC0CB;
+	;
+}
+
+.article-text {
+	font-size: 24px;
+	font-weight: 400;
+	color: #808080;
+	line-height: 5.5vh;
+	width: 45vw;
+}
+
+.article-logo {
+	width: 80vh;
+	height: 60vh;
+}
