@@ -39,11 +39,15 @@ export default {
     text: 'La Fundación Vida madre de nuevas generaciones (Fundmadre), entidad sin ánimo de Lucro nace para mejorar la calidad de vida de mujeres gestantes vulnerables en Bogotá y las periferias. a través de su modelo de acompañamiento en Psicosocial, en Enfermería, en emprendimiento y en Espiritualidad y valores, busca fracturar los siclos de pobreza generados por el desplazamiento, la migración, el abandono y la falta de oportunidades.',
     img: logo,
     alt: 'fundmadre logo',
+    teamTitle: 'Nuestro equipo',
+    teamText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mattis id erat sed bibendum. Fusce nec sapien ante, consectetur adipiscing elit. Aliquam mattis id erat sed bibendum. Fusce nec sapien ante',
   },
   ourWork: {
     title: '¿Qué hacemos?',
     text: 'Fundmadre tiene como propósito, asesorar, apoyar y acompañar a madres gestantes vulnerables y marginadas en la ciudad de Bogotá- Colombia, contribuyendo con la defensa de la vida, para disminuir el índice de abortos, causados por la condición de pobreza, abandono y depresión.',
     img: ourWorkImg,
     alt: 'Mom carrying her baby',
+    workTitle: 'Nuestro trabajo',
+    workText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mattis id erat sed bibendum. Fusce nec sapien ante, consectetur adipiscing elit. Aliquam mattis id erat sed bibendum. Fusce nec sapien ante',
   },
 };

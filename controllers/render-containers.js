@@ -39,4 +39,20 @@ export default class RenderContainers {
     container.appendChild(descriptionContainer);
     document.querySelector('body').insertBefore(container, document.querySelector('footer'));
   }
+
+  static titleFullTextComponent(data) {
+    const container = document.createElement('section');
+    const text = document.createElement('p');
+    const title = document.createElement('h2');
+
+    container.id = 'title-full-text-container';
+    text.className = 'title-full-text-paragraph';
+    title.className = 'article-title';
+    title.innerText = data.teamTitle || data.workTitle;
+    text.innerText = data.teamText || data.workText;
+
+    container.appendChild(title);
+    container.appendChild(text);
+    document.querySelector('#root-container').appendChild(container);
+  }
 }
